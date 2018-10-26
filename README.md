@@ -1,1 +1,9 @@
 # Spring-Boot-App
+## Resources
+* https://www.jetbrains.com/idea/documentation/
+* https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+* https://medium.com/oril/spring-boot-quick-start-e5322c97fa0c
+* https://blog.codeleak.pl/2014/04/how-to-spring-boot-and-thymeleaf-with-maven.html
+* https://blog.codeleak.pl/2017/03/getting-started-with-thymeleaf-3-text.html
+* https://github.com/kolorobot/spring-boot-thymeleaf
+* https://spring.io/guides/gs/spring-boot/
