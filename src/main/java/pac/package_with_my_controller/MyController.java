@@ -1,12 +1,13 @@
 package pac.package_with_my_controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
 
+@Controller
 public class MyController {
+    @RequestMapping("/")
+    @ResponseBody
+    String hello(){return "Hello, I'm Spring Boot and I'm running now :D ";}
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String homePage(){
-        return "Hello, I'm SPRING BOOT and I am running";
-    }
 }
+ //To run `mvn spring-boot:run`
